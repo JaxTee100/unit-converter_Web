@@ -3,7 +3,7 @@ const { unitConverter } = require('../controllers/conversion-controller');
 
 const router = express.Router();
 
-router.post('/', unitConverter);
+router.post('/convert', unitConverter);
 
 
 module.exports = router;
